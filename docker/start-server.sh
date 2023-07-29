@@ -1,0 +1,1 @@
+java -Dfile.encoding=UTF-8 ${JAVA_OPTS} -jar msg-center.jar

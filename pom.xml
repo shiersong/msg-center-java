@@ -22,9 +22,9 @@
   
   <groupId>org.msg</groupId>
   <artifactId>msgcenter</artifactId>
-  <version>1.0.0</version>
+  <version>1.1.0</version>
   
-  <name>msgcenter</name>
+  <name>msg-center</name>
   <description>Message center</description>
 
   <properties>
