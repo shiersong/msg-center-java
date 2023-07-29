@@ -22,7 +22,7 @@
   
   <groupId>org.msg</groupId>
   <artifactId>msgcenter</artifactId>
-  <version>0.0.2-SNAPSHOT</version>
+  <version>1.0.0</version>
   
   <name>msgcenter</name>
   <description>Message center</description>
@@ -115,13 +115,13 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
+
   <build>
     <finalName>${name}</finalName>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>2.1</version>
         <configuration>
           <source>1.8</source>
           <target>1.8</target>
@@ -131,6 +131,7 @@
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
+        <version>${spring-boot-dependencies.version}</version>
         <executions>
           <execution>
             <goals>
